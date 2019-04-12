@@ -5,8 +5,9 @@ import BoardCollab from "./components/BoardCollab/";
 
 const App = () => (
     <>
-        <SquareCollab />
-        <BoardCollab />
+        <BoardCollab >
+            <SquareCollab />
+        </BoardCollab>
     </>
 );
 
