@@ -1,4 +1,3 @@
-// Maneira mais leve
 import React from "react";
 import "./styles.css";
 
