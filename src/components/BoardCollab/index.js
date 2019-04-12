@@ -5,8 +5,7 @@ import SquareCollab from "../SquareCollab";
 /**
  * Função para exibir 9 squares no board
  */
-const squareCollabs = () => {
-    let max = 9;
+const squareCollabs = (max) => {
     const squares = [];
 
     while (max--) {
@@ -16,8 +15,8 @@ const squareCollabs = () => {
     return squares;
 }
 
-const BoardCollab = () => (
-    <article>{squareCollabs()}</article>
+const BoardCollab = ({ qtd }) => (
+    <article>{squareCollabs(qtd)}</article>
 );
 
 export default BoardCollab;
