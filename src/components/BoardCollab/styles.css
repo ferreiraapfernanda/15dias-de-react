@@ -1,3 +1,5 @@
 .board-collab {
     width: 300px;
+    border-radius: 5px;
+    border: 2px solid #9b59b6;
 }
