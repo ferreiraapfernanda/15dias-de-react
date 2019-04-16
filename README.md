@@ -6,6 +6,8 @@ Projeto de "Jogo da Velha", a partir das lives do [canal CollabCode no Youtube](
 
 Abra a aba [Projetos](https://github.com/fromnanda/15dias-de-react/projects/1) para ver o meu progresso nesse curso :)
 
-https://www.youtube.com/watch?v=8RUzGsLfRuA
 
-53min
+Desafios Aula 04 
+- Básico: Item de histórico
+- Intermediário: Css no histórico
+- Avançado: Deixar o SquareCollab funcionando (exibindo o X ou O)
