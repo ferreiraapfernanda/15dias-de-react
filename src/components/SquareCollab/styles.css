@@ -7,4 +7,6 @@
     font-size: 8vw;
     color: #1abc9c;
     cursor: pointer;
+    vertical-align: top;
+    outline: none;
 }
