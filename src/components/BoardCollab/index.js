@@ -1,17 +1,31 @@
-import React from "react";
+import React, { Component } from "react";
 
 import SquareCollab from "../SquareCollab";
 import "./styles.css";
 
-const createSquares = () => {
-    const squares = Array(9).fill();
-    return squares.map((square, index) => <SquareCollab key={index} />)
-}
+class BoardCollab extends Component {
 
-const BoardCollab = () => (
-    <article className="board-collab">
-        {createSquares()}
-    </article>
-);
+    createSquares = () => {
+        const squares = Array(9).fill();
+
+        return squares.map(
+            (square, index) => (
+                <SquareCollab
+                    key={index}
+                    onClick={this.props.onClick}
+                />
+            )
+        );
+    }
+
+    render() {
+        return (
+            <article className="board-collab">
+                {this.createSquares()}
+            </article>
+        );
+    }
+
+}
 
 export default BoardCollab;
