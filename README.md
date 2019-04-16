@@ -9,5 +9,5 @@ Abra a aba [Projetos](https://github.com/fromnanda/15dias-de-react/projects/1) p
 
 Desafios Aula 04 
 - [x] Básico: Item de histórico
-- Intermediário: Css no histórico
-- Avançado: Deixar o SquareCollab funcionando (exibindo o X ou O)
+- [x] Intermediário: CSS no histórico
+- [ ] Avançado: Deixar o SquareCollab funcionando (exibindo o X ou O)
